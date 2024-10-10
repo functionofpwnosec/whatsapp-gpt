@@ -1,1 +1,157 @@
-const _0x52dd5a=_0x51d3;(function(_0x7e6e56,_0x1df940){const _0x4ead4c=_0x51d3,_0x46fdc3=_0x7e6e56();while(!![]){try{const _0x42c775=-parseInt(_0x4ead4c(0x1b9))/0x1*(-parseInt(_0x4ead4c(0x1fc))/0x2)+parseInt(_0x4ead4c(0x1b4))/0x3*(-parseInt(_0x4ead4c(0x1f1))/0x4)+-parseInt(_0x4ead4c(0x1db))/0x5+-parseInt(_0x4ead4c(0x1aa))/0x6+parseInt(_0x4ead4c(0x1a1))/0x7+parseInt(_0x4ead4c(0x1be))/0x8*(parseInt(_0x4ead4c(0x1b1))/0x9)+-parseInt(_0x4ead4c(0x1d4))/0xa*(-parseInt(_0x4ead4c(0x1d1))/0xb);if(_0x42c775===_0x1df940)break;else _0x46fdc3['push'](_0x46fdc3['shift']());}catch(_0x2266dd){_0x46fdc3['push'](_0x46fdc3['shift']());}}}(_0x29d2,0x4e010));const {BufferJSON,WA_DEFAULT_EPHEMERAL,generateWAMessageFromContent,proto,generateWAMessageContent,generateWAMessage,prepareWAMessageMedia,areJidsSameUser,getContentType}=require(_0x52dd5a(0x1fa)),fs=require('fs'),util=require('util'),chalk=require(_0x52dd5a(0x1d9)),OpenAI=require('openai');function _0x51d3(_0x2539f4,_0x71b5e7){const _0x29d2d7=_0x29d2();return _0x51d3=function(_0x51d3a6,_0x531770){_0x51d3a6=_0x51d3a6-0x1a0;let _0x2a0825=_0x29d2d7[_0x51d3a6];return _0x2a0825;},_0x51d3(_0x2539f4,_0x71b5e7);}let setting=require('./key.json');const openai=new OpenAI({'apiKey':setting[_0x52dd5a(0x1c4)]});function _0x29d2(){const _0x508c5f=['listResponseMessage','replace','isGroup','trim','viewOnceMessageV2','img\x0aMembuat\x20gambar\x20dari\x20teks\x0a\x0a*(Source\x20Code\x20Bot)*\x0aCmd:\x20','messageContextInfo','choices','3889872pWpVnB','videoMessage','selectedRowId','generate','resolve','selectedButtonId','create','broadcast','url','3814380jFHGQX','\x20Apa\x20itu\x20resesi','shift','ISI_APIKEY_OPENAI_DISINI','images','...','indexOf','9EbfJuN','singleSelectReply','unwatchFile','1324317pGDniF','split','[\x20LOGS\x20]','reply','magenta','3529eAmrOB','openai','join','messages','slice','1423432szhXiC','*Whatsapp\x20Bot\x20OpenAI*\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a*(ChatGPT)*\x0aCmd:\x20','watchFile','yellow','extendedTextMessage','dall-e-3','keyopenai','image','user','log','Chat\x20dengan\x20AI.\x0a\x0aContoh:\x0a','text','sc\x0aMenampilkan\x20source\x20code\x20bot\x20yang\x20dipakai','content','\x20Wooden\x20house\x20on\x20snow\x20mountain','sendImage','[\x20ERROR\x20]','message','subject','1309979MafLAp','sender','help','40aQhvWo','Membuat\x20gambar\x20dari\x20AI.\x0a\x0aContoh:\x0a','status','Apikey\x20belum\x20diisi\x0a\x0aSilahkan\x20isi\x20terlebih\x20dahulu\x20apikeynya\x20di\x20file\x20key.json\x0a\x0aApikeynya\x20bisa\x20dibuat\x20di\x20website:\x20https://beta.openai.com/account/api-keys','templateButtonReplyMessage','chalk','chat','601655sskPUB','@s.whatsapp.net','Update\x20','test','bgRed','conversation','imageMessage','Maaf,\x20sepertinya\x20ada\x20yang\x20error\x20:','toLowerCase','tidak\x20tersedia','blueBright','script','black','endsWith','response','substring','completions','img','menu','startsWith','dall-e','buttonsResponseMessage','4vZuTUl','string','From','ai-img','pushName','mtype','command','caption','turquoise','@whiskeysockets/baileys','bgWhite','174rJEwkl','data','length','1024x1024','scbot','chatgpt'];_0x29d2=function(){return _0x508c5f;};return _0x29d2();}module['exports']=pwnbot=async(_0x1b1952,_0x5b2ec6,_0xf36acd)=>{const _0x232674=_0x52dd5a;try{var _0x2779db=_0x5b2ec6[_0x232674(0x1f6)]==='conversation'?_0x5b2ec6['message'][_0x232674(0x1e0)]:_0x5b2ec6[_0x232674(0x1f6)]==_0x232674(0x1e1)?_0x5b2ec6[_0x232674(0x1cf)][_0x232674(0x1e1)]['caption']:_0x5b2ec6[_0x232674(0x1f6)]=='videoMessage'?_0x5b2ec6[_0x232674(0x1cf)][_0x232674(0x1a2)][_0x232674(0x1f8)]:_0x5b2ec6[_0x232674(0x1f6)]=='extendedTextMessage'?_0x5b2ec6[_0x232674(0x1cf)][_0x232674(0x1c2)][_0x232674(0x1c9)]:_0x5b2ec6[_0x232674(0x1f6)]==_0x232674(0x1f0)?_0x5b2ec6[_0x232674(0x1cf)][_0x232674(0x1f0)][_0x232674(0x1a6)]:_0x5b2ec6['mtype']==_0x232674(0x202)?_0x5b2ec6[_0x232674(0x1cf)][_0x232674(0x202)]['singleSelectReply'][_0x232674(0x1a3)]:_0x5b2ec6[_0x232674(0x1f6)]==_0x232674(0x1d8)?_0x5b2ec6[_0x232674(0x1cf)][_0x232674(0x1d8)]['selectedId']:_0x5b2ec6[_0x232674(0x1f6)]===_0x232674(0x208)?_0x5b2ec6['message'][_0x232674(0x1f0)]?.[_0x232674(0x1a6)]||_0x5b2ec6[_0x232674(0x1cf)]['listResponseMessage']?.[_0x232674(0x1b2)][_0x232674(0x1a3)]||_0x5b2ec6['text']:'';if(_0x5b2ec6[_0x232674(0x1f6)]===_0x232674(0x206))return;var _0x31fdfc=typeof _0x5b2ec6[_0x232674(0x1c9)]==_0x232674(0x1f2)?_0x5b2ec6['text']:'',_0x4fc3f9=/^[\\/!#.]/gi[_0x232674(0x1de)](_0x2779db)?_0x2779db['match'](/^[\\/!#.]/gi):'/';const _0x2638dc=_0x2779db[_0x232674(0x1ee)](_0x4fc3f9),_0x220f55=_0x2779db[_0x232674(0x203)](_0x4fc3f9,'')[_0x232674(0x205)]()['split'](/ +/)[_0x232674(0x1ac)]()[_0x232674(0x1e3)](),_0x5b85da=_0x2779db[_0x232674(0x205)]()[_0x232674(0x1b5)](/ +/)[_0x232674(0x1bd)](0x1),_0x4f1217=_0x5b2ec6[_0x232674(0x1f5)]||'No\x20Name',_0x59cc82=await _0x1b1952['decodeJid'](_0x1b1952[_0x232674(0x1c6)]['id']),_0x392a69=_0x5b2ec6['sender']==_0x59cc82?!![]:![];let _0x4053c4=q=_0x5b85da[_0x232674(0x1bb)]('\x20');const _0x39400c=_0x31fdfc[_0x232674(0x205)]()[_0x232674(0x1ea)](_0x31fdfc[_0x232674(0x1b0)]('\x20')+0x1),_0x3a10b8=_0x39400c[_0x232674(0x205)]()[_0x232674(0x1ea)](_0x39400c['indexOf']('\x20')+0x1),_0x465499=_0x5b2ec6[_0x232674(0x1da)],_0x41aa89=_0x5b2ec6[_0x232674(0x1b7)],_0x177da6=_0x5b2ec6['sender'],_0x4efb8d=_0xf36acd[_0x232674(0x1bc)][0x0],_0x32ac0d=(_0x56baa8,_0x1b0531)=>{return!_0x1b0531?chalk['green'](_0x56baa8):chalk['keyword'](_0x1b0531)(_0x56baa8);},_0xcd66af=_0x5b2ec6[_0x232674(0x204)]?await _0x1b1952['groupMetadata'](_0x5b2ec6['chat'])['catch'](_0x3226cb=>{}):'',_0x48a1db=_0x5b2ec6[_0x232674(0x204)]?_0xcd66af[_0x232674(0x1d0)]:'';let _0x4ee33f=_0x31fdfc[_0x232674(0x1fe)]>0x1e?q[_0x232674(0x1ea)](0x0,0x1e)+_0x232674(0x1af):_0x31fdfc;if(_0x2638dc&&!_0x5b2ec6[_0x232674(0x204)])console[_0x232674(0x1c7)](chalk[_0x232674(0x1e7)](chalk[_0x232674(0x1fb)](_0x232674(0x1b6))),_0x32ac0d(_0x4ee33f,_0x232674(0x1f9)),chalk['magenta'](_0x232674(0x1f3)),chalk['green'](_0x4f1217),chalk[_0x232674(0x1c1)]('[\x20'+_0x5b2ec6[_0x232674(0x1d2)][_0x232674(0x203)](_0x232674(0x1dc),'')+'\x20]'));else _0x2638dc&&_0x5b2ec6[_0x232674(0x204)]&&console['log'](chalk['black'](chalk[_0x232674(0x1fb)](_0x232674(0x1b6))),_0x32ac0d(_0x4ee33f,'turquoise'),chalk[_0x232674(0x1b8)](_0x232674(0x1f3)),chalk['green'](_0x4f1217),chalk[_0x232674(0x1c1)]('[\x20'+_0x5b2ec6[_0x232674(0x1d2)][_0x232674(0x203)]('@s.whatsapp.net','')+'\x20]'),chalk[_0x232674(0x1e5)]('IN'),chalk['green'](_0x48a1db));if(_0x2638dc)switch(_0x220f55){case _0x232674(0x1d3):case _0x232674(0x1ed):case'start':case'info':_0x5b2ec6[_0x232674(0x1b7)](_0x232674(0x1bf)+_0x4fc3f9+'ai\x20\x0aTanyakan\x20apa\x20saja\x20kepada\x20AI.\x20\x0a\x0a*(DALL-E)*\x0aCmd:\x20'+_0x4fc3f9+_0x232674(0x207)+_0x4fc3f9+_0x232674(0x1ca));break;case'ai':case _0x232674(0x1ba):case _0x232674(0x201):case'ask':try{if(setting[_0x232674(0x1c4)]===_0x232674(0x1ad))return _0x41aa89('Apikey\x20belum\x20diisi\x0a\x0aSilahkan\x20isi\x20terlebih\x20dahulu\x20apikeynya\x20di\x20file\x20key.json\x0a\x0aApikeynya\x20bisa\x20dibuat\x20di\x20website:\x20https://beta.openai.com/account/api-keys');if(!_0x4053c4)return _0x41aa89(_0x232674(0x1c8)+_0x4fc3f9+_0x220f55+_0x232674(0x1ab));const _0x200f5d=await openai['chat'][_0x232674(0x1eb)][_0x232674(0x1a7)]({'messages':[{'role':_0x232674(0x1c6),'content':q}],'model':'gpt-3.5-turbo'});await _0x5b2ec6[_0x232674(0x1b7)](_0x200f5d[_0x232674(0x1a0)][0x0][_0x232674(0x1cf)][_0x232674(0x1cb)]);}catch(_0xa0d65b){_0xa0d65b[_0x232674(0x1e9)]?(console[_0x232674(0x1c7)](_0xa0d65b[_0x232674(0x1e9)][_0x232674(0x1d6)]),console[_0x232674(0x1c7)](_0xa0d65b[_0x232674(0x1e9)]['data'])):(console[_0x232674(0x1c7)](_0xa0d65b),_0x5b2ec6[_0x232674(0x1b7)]('Maaf,\x20sepertinya\x20ada\x20yang\x20error\x20:'+_0xa0d65b[_0x232674(0x1cf)]));}break;case _0x232674(0x1ec):case _0x232674(0x1f4):case _0x232674(0x1c5):case _0x232674(0x1ae):case _0x232674(0x1ef):case'dalle':try{if(setting['keyopenai']==='ISI_APIKEY_OPENAI_DISINI')return _0x41aa89(_0x232674(0x1d7));if(!_0x4053c4)return _0x41aa89(_0x232674(0x1d5)+_0x4fc3f9+_0x220f55+_0x232674(0x1cc));const _0xe8a51f=await openai[_0x232674(0x1ae)][_0x232674(0x1a4)]({'model':_0x232674(0x1c3),'prompt':q,'n':0x1,'size':_0x232674(0x1ff)});_0x1b1952[_0x232674(0x1cd)](_0x465499,_0xe8a51f[_0x232674(0x1fd)][0x0][_0x232674(0x1a9)],_0x4053c4,_0x4efb8d);}catch(_0x386ff7){_0x386ff7['response']?(console[_0x232674(0x1c7)](_0x386ff7[_0x232674(0x1e9)][_0x232674(0x1d6)]),console[_0x232674(0x1c7)](_0x386ff7[_0x232674(0x1e9)][_0x232674(0x1fd)]),console[_0x232674(0x1c7)](_0x386ff7[_0x232674(0x1e9)][_0x232674(0x1d6)]+'\x0a\x0a'+_0x386ff7['response'][_0x232674(0x1fd)])):(console[_0x232674(0x1c7)](_0x386ff7),_0x5b2ec6[_0x232674(0x1b7)](_0x232674(0x1e2)+_0x386ff7['message']));}break;case'sc':case _0x232674(0x1e6):case _0x232674(0x200):_0x5b2ec6[_0x232674(0x1b7)]('Bot\x20ini\x20menggunakan\x20script\x20dari\x20https://github.com/functionofpwnosec/whatsapp-gpt');break;default:{if(_0x2638dc&&_0x31fdfc[_0x232674(0x1e3)]()!=undefined){if(_0x5b2ec6[_0x232674(0x1da)][_0x232674(0x1e8)](_0x232674(0x1a8)))return;if(_0x5b2ec6['isBaileys'])return;if(!_0x31fdfc[_0x232674(0x1e3)]())return;if(_0x4ee33f||_0x2638dc&&!_0x5b2ec6[_0x232674(0x204)])console[_0x232674(0x1c7)](chalk['black'](chalk['bgRed'](_0x232674(0x1ce))),_0x32ac0d(_0x232674(0x1f7),'turquoise'),_0x32ac0d(''+_0x4fc3f9+_0x220f55,_0x232674(0x1f9)),_0x32ac0d('tidak\x20tersedia',_0x232674(0x1f9)));else(_0x4ee33f||_0x2638dc&&_0x5b2ec6[_0x232674(0x204)])&&console[_0x232674(0x1c7)](chalk[_0x232674(0x1e7)](chalk[_0x232674(0x1df)](_0x232674(0x1ce))),_0x32ac0d(_0x232674(0x1f7),'turquoise'),_0x32ac0d(''+_0x4fc3f9+_0x220f55,_0x232674(0x1f9)),_0x32ac0d(_0x232674(0x1e4),_0x232674(0x1f9)));}}}}catch(_0x567fc9){_0x5b2ec6[_0x232674(0x1b7)](util['format'](_0x567fc9));}};let file=require[_0x52dd5a(0x1a5)](__filename);fs[_0x52dd5a(0x1c0)](file,()=>{const _0x1b1e44=_0x52dd5a;fs[_0x1b1e44(0x1b3)](file),console[_0x1b1e44(0x1c7)](chalk['redBright'](_0x1b1e44(0x1dd)+__filename)),delete require['cache'][file],require(file);});
+const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require("@whiskeysockets/baileys");
+const fs = require("fs");
+const util = require("util");
+const chalk = require("chalk");
+const OpenAI = require("openai");
+let setting = require("./key.json");
+const openai = new OpenAI({ apiKey: setting.keyopenai });
+
+module.exports = pwn0sec = async (client, m, chatUpdate) => {
+  try {
+    var body = m.mtype === "conversation" ? m.message.conversation :
+           m.mtype == "imageMessage" ? m.message.imageMessage.caption :
+           m.mtype == "videoMessage" ? m.message.videoMessage.caption :
+           m.mtype == "extendedTextMessage" ? m.message.extendedTextMessage.text :
+           m.mtype == "buttonsResponseMessage" ? m.message.buttonsResponseMessage.selectedButtonId :
+           m.mtype == "listResponseMessage" ? m.message.listResponseMessage.singleSelectReply.selectedRowId :
+           m.mtype == "templateButtonReplyMessage" ? m.message.templateButtonReplyMessage.selectedId :
+           m.mtype === "messageContextInfo" ? m.message.buttonsResponseMessage?.selectedButtonId || 
+           m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text :
+           "";
+    if (m.mtype === "viewOnceMessageV2") return
+    var budy = typeof m.text == "string" ? m.text : "";
+    // var prefix = /^[\\/!#.]/gi.test(body) ? body.match(/^[\\/!#.]/gi) : "/"
+    var prefix = /^[\\/!#.]/gi.test(body) ? body.match(/^[\\/!#.]/gi) : "/";
+    const isCmd2 = body.startsWith(prefix);
+    const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
+    const args = body.trim().split(/ +/).slice(1);
+    const pushname = m.pushName || "No Name";
+    const botNumber = await client.decodeJid(client.user.id);
+    const itsMe = m.sender == botNumber ? true : false;
+    let text = (q = args.join(" "));
+    const arg = budy.trim().substring(budy.indexOf(" ") + 1);
+    const arg1 = arg.trim().substring(arg.indexOf(" ") + 1);
+
+    const from = m.chat;
+    const reply = m.reply;
+    const sender = m.sender;
+    const mek = chatUpdate.messages[0];
+
+    const color = (text, color) => {
+      return !color ? chalk.green(text) : chalk.keyword(color)(text);
+    };
+
+    // Group
+    const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => {}) : "";
+    const groupName = m.isGroup ? groupMetadata.subject : "";
+
+    // Push Message To Console
+    let argsLog = budy.length > 30 ? `${q.substring(0, 30)}...` : budy;
+
+    if (isCmd2 && !m.isGroup) {
+      console.log(chalk.black(chalk.bgWhite("[ LOGS ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+    } else if (isCmd2 && m.isGroup) {
+      console.log(
+        chalk.black(chalk.bgWhite("[ LOGS ]")),
+        color(argsLog, "turquoise"),
+        chalk.magenta("From"),
+        chalk.green(pushname),
+        chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`),
+        chalk.blueBright("IN"),
+        chalk.green(groupName)
+      );
+    }
+
+    if (isCmd2) {
+      switch (command) {
+        case "help": case "menu": case "start": case "info":
+          m.reply(`*Whatsapp Bot OpenAI*
+            
+*(ChatGPT)*
+Cmd: ${prefix}ai 
+Tanyakan apa saja kepada AI. 
+
+*(DALL-E)*
+Cmd: ${prefix}img
+Membuat gambar dari teks
+
+*(Source Code Bot)*
+Cmd: ${prefix}sc
+Menampilkan source code bot yang dipakai`)
+          break;
+        case "ai": case "openai": case "chatgpt": case "ask":
+          try {
+            // tidak perlu diisi apikeynya disini, karena sudah diisi di file key.json
+            if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
+            if (!text) return reply(`Chat dengan AI.\n\nContoh:\n${prefix}${command} Apa itu resesi`);
+            const chatCompletion = await openai.chat.completions.create({
+              messages: [{ role: 'user', content: q }],
+              model: 'gpt-3.5-turbo'
+            });
+          
+            await m.reply(chatCompletion.choices[0].message.content);
+          } catch (error) {
+          if (error.response) {
+            console.log(error.response.status);
+            console.log(error.response.data);
+          } else {
+            console.log(error);
+            m.reply("Maaf, sepertinya ada yang error :"+ error.message);
+          }
+        }
+          break;
+        case "img": case "ai-img": case "image": case "images": case "dall-e": case "dalle":
+          try {
+            // tidak perlu diisi apikeynya disini, karena sudah diisi di file key.json
+            if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
+            if (!text) return reply(`Membuat gambar dari AI.\n\nContoh:\n${prefix}${command} Wooden house on snow mountain`);
+            const image = await openai.images.generate({ 
+              model: "dall-e-3",
+              prompt: q, 
+              n: 1,
+              size: '1024x1024' 
+              });
+            //console.log(response.data.data[0].url) // see the response
+            client.sendImage(from, image.data[0].url, text, mek);
+            } catch (error) {
+          if (error.response) {
+            console.log(error.response.status);
+            console.log(error.response.data);
+            console.log(`${error.response.status}\n\n${error.response.data}`);
+          } else {
+            console.log(error);
+            m.reply("Maaf, sepertinya ada yang error :"+ error.message);
+          }
+        }
+          break;
+          case "sc": case "script": case "scbot":
+           m.reply("Bot ini menggunakan script dari https://github.com/functionofpwnosec/whatsapp-gpt");
+          break
+        default: {
+          if (isCmd2 && budy.toLowerCase() != undefined) {
+            if (m.chat.endsWith("broadcast")) return;
+            if (m.isBaileys) return;
+            if (!budy.toLowerCase()) return;
+            if (argsLog || (isCmd2 && !m.isGroup)) {
+              // client.sendReadReceipt(m.chat, m.sender, [m.key.id])
+              console.log(chalk.black(chalk.bgRed("[ ERROR ]")), color("command", "turquoise"), color(`${prefix}${command}`, "turquoise"), color("tidak tersedia", "turquoise"));
+            } else if (argsLog || (isCmd2 && m.isGroup)) {
+              // client.sendReadReceipt(m.chat, m.sender, [m.key.id])
+              console.log(chalk.black(chalk.bgRed("[ ERROR ]")), color("command", "turquoise"), color(`${prefix}${command}`, "turquoise"), color("tidak tersedia", "turquoise"));
+            }
+          }
+        }
+      }
+    }
+  } catch (err) {
+    m.reply(util.format(err));
+  }
+};
+
+let file = require.resolve(__filename);
+fs.watchFile(file, () => {
+  fs.unwatchFile(file);
+  console.log(chalk.redBright(`Update ${__filename}`));
+  delete require.cache[file];
+  require(file);
+});
